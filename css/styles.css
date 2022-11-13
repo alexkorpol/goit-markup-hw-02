@@ -24,6 +24,7 @@ body {
         font-size: 26px;
         line-height: 1.19;        
         color: var(--black-color);
+        text-decoration: none
         
     }
              
@@ -35,6 +36,10 @@ body {
             color: var(--first-color);
     }
     .mail-tel {
+        font-weight: 500;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;  
         color: var(--gray-color);        
     }
     .link {
@@ -45,6 +50,19 @@ body {
     .link:focus  {
             color: var(--accent-color);
     }
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
 
         /*-----------------HERO--------------------------*/
     .hero-title {
@@ -75,16 +93,14 @@ body {
             background: var(--gray-color);              
         }
         /*-----------------Our advantages---------------------*/
-        .advantages-text {
+        .advantages-title {
                 font-size: 14px;
                 line-height: 1.14;
                 text-transform: uppercase;            
                 color: var(--first-color);
         }
-        .item-advantages {
-                font-size: 14px;
-                line-height: 1.71;            
-                letter-spacing: 0.03em;
+        .advantages-text {
+                line-height: 1.71;
                 color: inherit;
         }
         /*-----------------What do we do?---------------------*/
@@ -98,15 +114,13 @@ body {
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 1.18;            
-                text-align: center;
-                letter-spacing: 0.03em;            
+                text-align: center;         
                 color: var(--first-color);
         }
-        .position {                
+        .team-position {                
                 font-size: 16px;
                 line-height: 1.18;
                 text-align: center;
-                /*color: var(--second-color);*/
         }
         .style-footer {
                 background: var(--bkgr-color);
@@ -120,11 +134,14 @@ body {
                 line-height: 1.19;            
                 letter-spacing: 0.03em;            
                 color: var(--white-color);
+                text-decoration: none;
         }
         .addres-footer {
                 font-style: normal;
                 line-height: 1.71; 
                 color: var(--white-color);
+                text-decoration: none;
+
         }
         .mail-tel-footer {
                 font-style: normal; 
@@ -150,18 +167,14 @@ body {
                 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
                 border-radius: 4px;
         }
-        .name-project {
-            font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 700;
+        .project-title {
                 font-size: 18px;
                 line-height: 2;
                 letter-spacing: 0.06em;
-                color: var (--first-color);
+                color: var(--first-color);
         }
-        .type-of-work {
+        .project-text {
                 font-size: 16px;
-                line-height: 1.88; 
-                letter-spacing: 0.03em;            
+                line-height: 1.88;           
         }
                                 
