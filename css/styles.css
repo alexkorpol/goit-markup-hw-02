@@ -55,7 +55,6 @@ body {
             letter-spacing: 0.06em;
             text-transform: uppercase;       
             color: var(--white-color);
-            background: var(--bkgr-color);
         }  
     .btn {
             font-weight: 700;
